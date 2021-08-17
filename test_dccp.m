@@ -2,14 +2,6 @@ clc
 clear all
 f=@(y) y.^2-0.6*y.^2;
 gb=@(y,yk) 0.6*yk^2+1.2*yk*(y-yk);
-% y=-10:10;
-% ykv=-20:0;
-% for i=1:length(ykv)
-%     yk=ykv(i);
-% 
-% plot(y,gb(y,yk))
-% hold on
-% end
 y=-50:0.1:50;
 plot(y,f(y),'b')
 hold on
