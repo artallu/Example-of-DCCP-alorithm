@@ -27,3 +27,5 @@ scatter(x,cvx_optval)
 xk=x;
 end
 axis([-50 50 -10 1500])
+xlabel('x')
+ylabel('f(x)')
